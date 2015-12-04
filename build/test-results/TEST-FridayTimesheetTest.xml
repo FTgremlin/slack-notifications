@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="FridayTimesheetTest" tests="1" skipped="0" failures="1" errors="0" timestamp="2015-12-04T10:49:25" hostname="FT-MW4559" time="1.227">
+  <properties/>
+  <testcase name="sendNotification" classname="FridayTimesheetTest" time="1.227">
+    <failure message="Assertion failed: &#10;&#10;assert resp.statusLine.statusCode == 200&#10;       |    |          |          |&#10;       |    |          302        false&#10;       |    HTTP/1.1 302 Found&#10;       groovyx.net.http.HttpResponseDecorator@607fc8d2&#10;" type="org.codehaus.groovy.runtime.powerassert.PowerAssertionError">Assertion failed: 
+
+assert resp.statusLine.statusCode == 200
+       |    |          |          |
+       |    |          302        false
+       |    HTTP/1.1 302 Found
+       groovyx.net.http.HttpResponseDecorator@607fc8d2
+
+	at FridayTimesheet.sendNotification_closure1(FridayTimesheet.groovy:26)
+	at groovy.lang.Closure.call(Closure.java:426)
+	at groovyx.net.http.HTTPBuilder.doRequest(HTTPBuilder.java:508)
+	at groovyx.net.http.HTTPBuilder.post(HTTPBuilder.java:359)
+	at FridayTimesheet.sendNotification(FridayTimesheet.groovy:22)
+	at FridayTimesheetTest.sendNotification(FridayTimesheetTest.groovy:7)
+</failure>
+  </testcase>
+  <system-out><![CDATA[POST Success: HTTP/1.1 302 Found
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
