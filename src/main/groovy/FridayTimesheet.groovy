@@ -6,7 +6,7 @@ class FridayTimesheet {
     def host = 'https://hooks.slack.com'
     def path = System.getenv('HOME_CHANNEL')
 
-    def text = '/giphy Timesheet'
+    def text = '@channel: do your timesheets today or else.'
     def username = 'Timesheet-Bot'
     def iconSelection = [':timer_clock:',':minion_straight:',':panic:',':rabbitfocus:']
 
