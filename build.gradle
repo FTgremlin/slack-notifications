@@ -9,13 +9,8 @@ group = 'com.ft.edtech'
 version = applicationVersion
 
 ext {
-    ext {
         groovyVersion = '2.4.+'
-    }
 }
-
-sourceCompatibility = 1.8
-targetCompatibility = 1.8
 
 repositories {
     mavenLocal()
