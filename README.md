@@ -1,6 +1,6 @@
 # slack-notifications
 
-[!image] (http://www.geonetsolutions.co.uk/wp-content/uploads/2015/05/huge-slack-logo-on-white.png)
+![image] (http://www.geonetsolutions.co.uk/wp-content/uploads/2015/05/huge-slack-logo-on-white.png)
 
 ## Why?
 To alert the FT about important repeat events, like greeting them on Mondays and reminding them about timesheets on Fridays.
