@@ -6,7 +6,7 @@ class FridayTimesheet {
     def host = 'https://hooks.slack.com'
     def path = System.getenv('HOME_CHANNEL')
 
-    def text = '<!channel> don\'t do your <https://financialtimes.ninthwave.net/login|timesheets> until 17th January.'
+    def text = '<!channel>: please remember to do your <https://financialtimes.ninthwave.net/login|timesheets> today.'
     def username = 'timesheet-bot'
     def iconSelection = [':timer_clock:',':minion_straight:',':panic:',':rabbitfocus:']
 
@@ -27,8 +27,8 @@ class FridayTimesheet {
         }
     }
 
-    String createPayload(){
-        new SlackMessage(text:text, username:username, icon_emoji:randomiseIcon()).payload()
+    String createPayload() {
+        new SlackMessage(text: text, username: username, icon_emoji: randomiseIcon()).payload()
     }
 
 }
