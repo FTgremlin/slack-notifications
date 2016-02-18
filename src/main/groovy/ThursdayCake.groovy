@@ -7,7 +7,7 @@ class ThursdayCake {
     def host = 'https://hooks.slack.com'
     def path = System.getenv('HOME_CHANNEL')
 
-    def text = '<!channel> Happy cake day, everybody!'
+    def text = '<!channel> Cake alert! Happy cake day, everybody!'
     def username = 'thursday-bot'
     def icon = ':cake:'
 
