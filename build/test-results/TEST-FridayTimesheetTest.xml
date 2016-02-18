@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="FridayTimesheetTest" tests="1" skipped="0" failures="1" errors="0" timestamp="2015-12-04T10:49:25" hostname="FT-MW4559" time="1.227">
+<testsuite name="FridayTimesheetTest" tests="1" skipped="0" failures="1" errors="0" timestamp="2016-02-18T15:27:45" hostname="FT-MW4559" time="4.046">
   <properties/>
-  <testcase name="sendNotification" classname="FridayTimesheetTest" time="1.227">
-    <failure message="Assertion failed: &#10;&#10;assert resp.statusLine.statusCode == 200&#10;       |    |          |          |&#10;       |    |          302        false&#10;       |    HTTP/1.1 302 Found&#10;       groovyx.net.http.HttpResponseDecorator@607fc8d2&#10;" type="org.codehaus.groovy.runtime.powerassert.PowerAssertionError">Assertion failed: 
+  <testcase name="sendNotification" classname="FridayTimesheetTest" time="4.046">
+    <failure message="Assertion failed: &#10;&#10;assert resp.statusLine.statusCode == 200&#10;       |    |          |          |&#10;       |    |          302        false&#10;       |    HTTP/1.1 302 Found&#10;       groovyx.net.http.HttpResponseDecorator@5feef5d8&#10;" type="org.codehaus.groovy.runtime.powerassert.PowerAssertionError">Assertion failed: 
 
 assert resp.statusLine.statusCode == 200
        |    |          |          |
        |    |          302        false
        |    HTTP/1.1 302 Found
-       groovyx.net.http.HttpResponseDecorator@607fc8d2
+       groovyx.net.http.HttpResponseDecorator@5feef5d8
 
 	at FridayTimesheet.sendNotification_closure1(FridayTimesheet.groovy:26)
 	at groovy.lang.Closure.call(Closure.java:426)

@@ -7,7 +7,7 @@ class FridayTimesheet {
     def path = System.getenv('HOME_CHANNEL')
 
     def text = '<!channel>: please remember to do your <https://financialtimes.ninthwave.net/login|timesheets> today.'
-    def username = 'timesheet-bot'
+    def username = 'friday-bot'
     def iconSelection = [':timer_clock:',':minion_straight:',':panic:',':rabbitfocus:']
 
     def randomiseIcon(){
