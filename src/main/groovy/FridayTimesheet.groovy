@@ -6,7 +6,7 @@ class FridayTimesheet {
     def host = 'https://hooks.slack.com'
     def path = System.getenv('HOME_CHANNEL')
 
-    def text = '<!channel>: please remember to do your <https://financialtimes.ninthwave.net/login|timesheets> today.'
+    def text = '<!channel>: please remember to do your <https://financialtimes.my.salesforce.com/aDj/o|timesheets> today.'
     def username = 'friday-bot'
     def iconSelection = [':timer_clock:',':minion_straight:',':panic:',':rabbitfocus:']
 
